@@ -1,0 +1,99 @@
+body{
+    color: #000 ;
+    font-size: 13px;
+    font-family: Helvetica;
+    background: #fff;
+    height: 100%;
+    margin: 0px auto;
+}
+
+#initPage{
+    font-family: KaiTi;
+    color: #000;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    margin: 0px auto;
+    background: url("../images/background.jpg") repeat;
+}
+
+#initPageTitle{
+    font-size: 50px;
+    height: 450px;
+    line-height: 450px;
+}
+
+#initPageDesc{
+    font-size: 30px;
+    height: 80px;
+    line-height: 80px;
+    vertical-align: 10;
+}
+
+#settingPage{
+    padding: 4px;
+    border: 1px solid #ccc;
+    width: 980px;
+    margin: 0px auto;
+}
+
+#settingPage label{
+	margin: 6px 0;
+	font-size: 14px;
+	font-weight: bold;
+	display: block;
+}
+
+#settingPage input,textarea{
+    line-height: 20px;
+    padding-top: 2px;
+}
+
+#saveSetting{
+    background: url(../images/saveSetting.gif) no-repeat;
+    width: 74px;
+    height: 25px;
+    line-height: 25px;
+    display: inline-block;
+    padding-left: 11px;
+    cursor: pointer;
+}
+
+#lotteryPage .lotteryItem{
+    display: inline;
+    float: left;
+    text-align: center;
+    font-family: STHupo;/*STCaiyun*//*FZShuTi*/
+    font-size: 100px;
+    font-weight: fold;
+    color: #ddd;
+    background: #fff;
+    border: 2px outset #ccc;
+}
+
+#lotteryPage .lotteryItemSelected{
+    background: #b21818;
+    border: 2px inset #ccc;
+}
+
+#lotteryPage .lotteryItemMask{
+    position: relative;
+}
+
+.thickdiv{
+    position: fixed !important;
+    _position: absolute;
+    top: 0;
+    left: 0;
+    padding-bottom: 500px;
+    margin-bottom: -500px;
+    z-index: 10000002;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    border: 0;
+    color: #fff;
+    font-family: KaiTi;
+    font-size: 300px;
+    font-weight: fold;
+    text-align: center;
+}
